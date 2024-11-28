@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+      font-family: "Archivo Black", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    background-image: url(fondo.png); 
+
+  }
+
+.resolucion {
+
+    width: 100%;
+
+}
+
+ 
+  
+  
+  .desplazamiento {
+    width: 100%;
+    padding: 15px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    z-index: 1000; 
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1px;
+   
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.caja {
+  justify-content: center;
+  display: flex;
+}
+
+.a h1 {
+  text-decoration: none;
+}
+
+.aumento-imagen {
+  transition: transform 0.3s ease; /* Suaviza el efecto */
+}
+
+.aumento-imagen:hover {
+  transform: scale(1.4); /* Agranda la imagen un 20% */
+}
+
+.texto1 {
+  color: rgba(255, 255, 255, 0.438);
+  font-size: 30px;
+  font-family: "Archivo Black", sans-serif;
+}
+
+
+
+
+
+.cont {
+  background-image: url(conovialO.png);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex; /* Activa Flexbox */
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+  
+}
+
+
+
+/* Texto de la tarjeta */
+.cont h1 {
+  font-size: 35px;
+  font-family: "Archivo Black", sans-serif;
+  margin: 0 0 10px;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+  color: yellow;
+  
+}
+
+.cont p {
+  font-size: 16px;
+  color: #555;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+/* Efecto hover en la tarjeta */
+.cont:hover {
+  transform: scale(1.05); /* Aumenta ligeramente toda la tarjeta */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  background-image: url(conovial.png);
+}
+
+/* Efecto hover en el texto */
+.cont:hover h1 {
+  font-size: 28px; /* Aumenta el tamaño del título */
+  color: white;
+ 
+}
+
+
+
+
+
+.hover-container {
+  cursor: pointer;
+}
+
+/* Contenido oculto inicialmente */
+.hover-content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: rgb(22, 22, 22);
+  padding: 0 15px;
+  transition: max-height 0.3s ease-out;
+ 
+}
+
+.hover-content a {
+  display: flex;
+  justify-content: center;
+}
+
+.hover-content p {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+   letter-spacing: 1px;
+
+}
+
+/* Mostrar contenido al pasar el cursor sobre el contenedor */
+.hover-container:hover .hover-content {
+  max-height: 150px; /* Ajusta según el contenido */
+  padding: 15px;
+}
+
+
+
+.cont1 {
+  background-image: url(fuego.png);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex; /* Activa Flexbox */
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+  
+}
+
+
+
+/* Texto de la tarjeta */
+.cont1 h1 {
+  font-size: 35px;
+  font-family: "Archivo Black", sans-serif;
+  margin: 0 0 10px;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+  color: red;
+
+  
+}
+
+.cont1 p {
+  font-size: 16px;
+  color: #555;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+/* Efecto hover en la tarjeta */
+.cont1:hover {
+  transform: scale(1.05); /* Aumenta ligeramente toda la tarjeta */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  background-image: url(humos.png);
+}
+
+/* Efecto hover en el texto */
+.cont1:hover h1 {
+  font-size: 28px; /* Aumenta el tamaño del título */
+  color: white;
+ 
+}
+
+
+/* Contenedor de la tarjeta */
+.cont2 {
+  background-image: url(piletaa.png);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex; /* Activa Flexbox */
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+      cursor: pointer;
+}
+
+
+
+/* Texto de la tarjeta */
+.cont2 h1 {
+  font-size: 35px;
+  font-family: "Archivo Black", sans-serif;
+  margin: 0 0 10px;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+  color: aqua;
+
+  
+}
+
+.cont2 p {
+  font-size: 16px;
+  color: #555;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+/* Efecto hover en la tarjeta */
+.cont2:hover {
+  transform: scale(1.05); /* Aumenta ligeramente toda la tarjeta */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  background-image: url(pileta.jpg);
+}
+
+/* Efecto hover en el texto */
+.cont2:hover h1 {
+  font-size: 28px; /* Aumenta el tamaño del título */
+  color: white;
+ 
+}
+
+
+/* Contenedor de la tarjeta */
+.cont3 {
+  background-image: url(solaro.png);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex; /* Activa Flexbox */
+      justify-content: center; /* Centra horizontalmente */
+      align-items: center; /* Centra verticalmente */
+      cursor: pointer;
+}
+
+
+/* Texto de la tarjeta */
+.cont3 h1 {
+  font-size: 35px;
+  font-family: "Archivo Black", sans-serif;
+  margin: 0 0 10px;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+  color: rgb(255, 145, 0);
+
+  
+}
+
+.cont3 p {
+  font-size: 16px;
+  color: #555;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+/* Efecto hover en la tarjeta */
+.cont3:hover {
+  transform: scale(1.05); /* Aumenta ligeramente toda la tarjeta */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  background-image: url(solar.png);
+}
+
+/* Efecto hover en el texto */
+.cont3:hover h1 {
+  font-size: 28px; /* Aumenta el tamaño del título */
+  color: white;
+ 
+}
+
+
+
+
+.enlaces {
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  
+}
+
+.enlace {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.texto2 {
+  color: orange;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.llamanos {
+  background-color: rgba(255, 166, 0, 0.774);
+  height: 300px;
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;    /* Centrar verticalmente */
+}
+
+.enlaces a:hover {
+  color: black;
+}
+
+.navbar-nav .ms-auto .nav a:hover {
+  color: black;
+}
+
+
+
+
+.whatsapp-float {
+  position: fixed;         /* Para que se mantenga fijo al desplazarse */
+  bottom: 20px;            /* Distancia desde la parte inferior */
+  right: 20px;             /* Distancia desde la parte derecha */
+  background-color: #25D366; /* Color de fondo oficial de WhatsApp */
+  color: white;            /* Color del icono */
+  border-radius: 50%;      /* Forma circular */
+  width: 60px;             /* Tamaño del botón */
+  height: 60px;            /* Tamaño del botón */
+  display: flex;           /* Centrar el icono */
+  justify-content: center; /* Centrar el icono horizontalmente */
+  align-items: center;     /* Centrar el icono verticalmente */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+  z-index: 1000;           /* Asegura que esté por encima de otros elementos */
+  text-decoration: none;   /* Elimina subrayado */
+}
+
+/* Efecto al pasar el cursor */
+.whatsapp-float:hover {
+  background-color: #1ebe5b; /* Color ligeramente más oscuro */
+}
+
+/* Estilo del ícono (font-awesome) */
+.whatsapp-float i {
+  font-size: 30px;         /* Tamaño del icono */
+}
+
+
+
